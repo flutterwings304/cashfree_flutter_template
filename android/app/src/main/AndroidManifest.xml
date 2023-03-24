@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.flutterwings.cashfree_flutter_template">
+     <uses-permission android:name="android.permission.INTERNET" />
    <application
         android:label="cashfree_flutter_template"
         android:name="${applicationName}"
@@ -30,5 +31,7 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+        <meta-data android:name="com.google.android.gms.version"
+          android:value="@integer/google_play_services_version" />
     </application>
 </manifest>
